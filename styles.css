@@ -1,0 +1,187 @@
+body
+{
+    background-color: rgb(99, 93, 93);
+    background-image: url("res/neon.jpg");
+    background-size: 100%;
+    background-clip: border-box;
+    background-repeat: repeat;
+}
+
+.topbar ul
+{
+    list-style-type: none;
+    margin: auto;
+    width: 80%;
+}
+
+.topbar ul li
+{
+    float: left;
+    margin: auto;
+    width: 20%;
+}
+
+.topbar ul li a
+{
+    background-color: rgba(255, 255, 255, 0);
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 250%;
+    text-align: center;
+    margin: auto;
+}
+
+.topbar ul li a:hover
+{
+    background-color: rgba(20, 173, 184, 0.9);
+}
+
+.quote
+{
+    margin: auto;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.quote h1
+{
+    color: rgb(202, 119, 9);
+    margin: auto;
+    width: 70%;
+    font-size: 350%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.panel
+{
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 21%;
+}
+
+.panel ul
+{
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0%;
+}
+
+.panel ul li
+{
+    color: white;
+}
+
+.panel ul li:hover
+{
+    color: rgb(20, 173, 184);
+}
+
+.panel ul li h3
+{
+    margin-top: 0.5%;
+    margin-bottom: 0.0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-wrap: normal;
+}
+
+.panel ul li h6
+{
+    margin-top: 0.5%;
+    margin-bottom: 0.0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    word-wrap: normal;
+}
+
+.panel button
+{
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    margin: auto;
+    margin-top: 0%;
+    width: 10%;
+    height: 2%;
+    font-size: 200%;
+}
+
+.panel button:hover
+{
+    color:rgb(20, 173, 184)
+}
+
+.panel .edit
+{
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    margin: auto;
+    width: 2%;
+    height: 10%;
+    font-size: 100%;
+    border-color: rgba(0, 0, 0, 0.0);
+}
+
+.panel .edit:hover
+{
+    color:rgb(9, 201, 19);
+}
+
+.panel .trash
+{
+    background-color: rgba(0, 0, 0, 0.0);
+    color: white;
+    margin: auto;
+    width: 5%;
+    height: 10%;
+    font-size: 100%;
+    border-color: rgba(0, 0, 0, 0.0);
+}
+
+.panel .trash:hover
+{
+    color:rgb(241, 97, 13);
+}
+
+.panel .textarea
+{
+    background-color: rgba(0, 0, 0, 0.0);
+    border-color: rgba(20, 173, 184, 0.0);
+    outline: transparent;
+    color: white;
+    resize: none;
+    width: 95%;
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.panel .buttonbar
+{
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+.panel .buttonbar li
+{
+    float: left;
+    margin: auto;
+    width: 20%;
+}
+
+input
+{
+    position: relative;
+    width: 150%;
+    height: 150%;
+    display: block;
+    background: black;
+}

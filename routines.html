@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Routines</title>
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://kit.fontawesome.com/b9e8e4a4f9.js" crossorigin="anonymous"></script>
+        <script src="scripts/routines.js"></script>
+
+	</head>
+
+	<body onload="ready()">
+
+		<div class="topbar">
+			<ul>
+
+				<li><a href="home.html"><i class="fas fa-home"></i></a></li>
+				<li><a href="routines.html"><i class="fas fa-clipboard-list"></i></a></li>
+				<li><a href="home.html"><i class="fas fa-cannabis"></i></a></li>
+				<li><a href="home.html"><i class="fas fa-calendar"></i></a></li>
+				<li><a href="home.html"><i class="fas fa-pills"></i></a></li>
+
+			</ul>
+		</div>
+
+        <div class="panel">
+            <ul id="routine_list"></ul>
+			<ul class="buttonbar">
+				<li><button onclick="addClick()"><i class="fas fa-plus"></i></button></li>
+				<li><button onclick="editClick()"><i class="fas fa-edit"></i></button></li>
+				<li><button onclick="delClick()"><i class="far fa-trash-alt"></i></button></li>
+			</ul>
+        </div>
+    </body>
+</html>
